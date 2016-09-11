@@ -1,6 +1,6 @@
 <!doctype>
 <?php require_once("functions/functions.php"); ?>
-<html>
+<html manifest="manifest.appcache">
   <head>
     <!-- CSS -->
     <link rel="stylesheet" type="text/css" href="css/main.css" />
@@ -27,7 +27,7 @@
         </div>
         <h3>Upload</h3>
         <div>
-          
+
         </div>
       </secition>
       <section id="sources">
