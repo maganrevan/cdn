@@ -1,0 +1,10 @@
+CACHE MANIFEST
+
+CACHE:
+index.php
+css/main.css
+js/main.js
+
+NETWORK:
+https://maxcdn.bootstrapcdn.com
+https://code.jquery.com/
