@@ -1,6 +1,8 @@
 <!doctype>
-<?php require_once("functions/functions.php"); ?>
-<html manifest="manifest.appcache">
+<?php
+  require_once("functions/functions.php");
+ ?>
+<html>
   <head>
     <!-- CSS -->
     <link rel="stylesheet" type="text/css" href="css/main.css" />
@@ -41,7 +43,7 @@
               <?php
             	$linkparts = array_pop(explode("/cdn/",$link));
               ?>
-              <img src="<?php echo($linkparts); ?>" source="<?php echo($linkparts); ?>" alt="testbild" />
+              <img src="functions/create_thumbs.php?file=<?php echo($linkparts); ?>" source="<?php echo($linkparts); ?>" alt="Beispielbild" />
               <input type="text" value="<?php echo("http://".$_SERVER["HTTP_HOST"]."/".$linkparts); ?>" />
               </div>
               <?php
